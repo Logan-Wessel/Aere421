@@ -3,7 +3,7 @@ close all; clear, clc, format shortG
 % AerE 421 HW2 Logan Wessel
 % HW2
 
-% Q1
+%% Q1
 % a
 fprintf("Q1.a\n")
 
@@ -33,7 +33,7 @@ z_bar = 0; % m
 fprintf("y_bar = %.6g m\n", y_bar)
 fprintf("z_bar = %.6g m\n", z_bar)
 
-%Part c
+% c
 fprintf("\nQ1.c\n")
 
 I_y = sum(A .* (z - z_bar).^2); % m^4
@@ -57,8 +57,8 @@ for i = 1:length(sigma)
     end
 end
 
-%Q2
-%a
+%% Q2
+% a
 fprintf("\nQ2.a\n")
 
 S_z = 5000; % N at shear center
@@ -82,8 +82,8 @@ fprintf("I_y = %.6g m^4\n", I_y)
 fprintf("I_z = %.6g m^4\n", I_y)
 fprintf("I_yz = %.6g m^4\n", I_y)
 
-%Q3
-%a
+%% Q3
+% a
 fprintf("\nQ3.a\n")
 
 A = [1.5, 2, 1.5, 2] / 100^2; % m^2
