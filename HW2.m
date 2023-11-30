@@ -102,8 +102,8 @@ fprintf("q34 = %.6g N/m\n", q34)
 %b
 fprintf("\nQ2.b\n")
 
-zeta = (-(2 * (.5 * .5 * .2) * q12) + (2 * (.5 * 2 * 200) * q23)) / S_z; % m
-fprintf("zeta = %.6g m\n", zeta)
+zeta = (-(2 * (.5 * .5 * .2) * q12) + (2 * (.5 * 2 * 200) * q23)) / S_z; % mm
+fprintf("zeta = %.6g mm\n", zeta)
 
 %% Q3
 fprintf("\nQ3\n")
